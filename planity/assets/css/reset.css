@@ -1,0 +1,21 @@
+/* 
+Effacer tout le style 
+par défaut du navigateur 
+que je ne souhaite pas 
+avoir sur mon site
+*/
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

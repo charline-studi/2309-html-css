@@ -29,3 +29,5 @@ Durant ces lives nous allons alterner entre le html et le css pour revoir les ba
 ## Ressources
 
 - [📖 Documentation Mozilla FR et EN](https://developer.mozilla.org/fr/docs/Web/HTML)
+- [Liste balises HTML](https://www.w3schools.com/tags/default.asp)
+- [Liste balises HTML - 2](https://jaetheme.com/balises-html5/)

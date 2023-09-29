@@ -1,0 +1,29 @@
+/* Sélecteur global */
+nav {
+    background-color: tomato;
+}
+
+/* Sélecteur avec une classe */
+.logo {
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+
+    /* Vesion condensée
+    border: solid 5px blue;
+    */
+}
+
+/* Sélecteur avec un id */
+#main {
+    background-color: yellow;
+}
+
+/* Sélecteur avec lien parentalité */
+header button {
+    font-size: 30px
+}
+
+.quick-action-buttons {
+    background-color: green;
+}
