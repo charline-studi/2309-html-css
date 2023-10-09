@@ -4,3 +4,24 @@ Block
 Element
 Modifier
 */
+
+.header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.header__logo {
+    width: 150px;
+    filter: brightness(0) saturate(100%) invert(99%) sepia(15%) saturate(57%) hue-rotate(234deg) brightness(115%) contrast(100%);
+}
+
+.header__list-link {
+    display: flex;
+}
+
+.header__quick-actions {
+    display: flex;
+}
+
