@@ -33,3 +33,6 @@ Durant ces lives nous allons alterner entre le html et le css pour revoir les ba
 - [Liste balises HTML - 2](https://jaetheme.com/balises-html5/)
 - [Jeu pour le sélecteurs CSS](https://flukeout.github.io/)
 - [Changer la couleur d'un SVG](https://angel-rs.github.io/css-color-filter-generator/)
+- [Flex CSS guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Jeu Flex Froggy](https://flexboxfroggy.com/#fr)
+- [Jeu Flex Defense](http://www.flexboxdefense.com/)

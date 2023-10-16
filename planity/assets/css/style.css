@@ -5,8 +5,44 @@ Element
 Modifier
 */
 
+/*
+FLUX
+*/
+
+.flux {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+BUTTON
+*/
+
+.button {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.button--black {
+    background-color: black;
+    color: white;
+}
+
+
+/*
+HEADER
+*/
+
 .header {
-    background-color: lightblue;
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+}
+
+.header__container {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
@@ -19,9 +55,71 @@ Modifier
 
 .header__list-link {
     display: flex;
+    column-gap: 20px;
+    align-items: center;
+    height: 100%;
+}
+
+.header__link {
+    color: white;
 }
 
 .header__quick-actions {
     display: flex;
+    column-gap: 20px;
 }
 
+
+/*
+HERO
+*/
+
+.hero {
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    row-gap: 20px;
+}
+
+.hero__title {
+    color: white;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.hero__description {
+    color: white;
+}
+
+.hero__search {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    column-gap: 30px
+}
+
+.hero__field {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.hero__label {
+    color: grey;
+    font-size: 14px;
+}
+
+.hero__input {
+    color: black;
+    font-size: 18px;
+    width: 300px;
+}
+
+.hero__input::placeholder {
+    opacity: 1;
+}
